@@ -23,8 +23,10 @@ def print_flight_schedule(fn, csv_hdr, flt_sched):
 # add the flights for T4, T5 and T6 to the list of lists below
 flight_schedule = [['T1','AUS','DAL','0600','0650'],
                    ['T2','DAL','HOU','0600','0705'],
-                   ['T3','DAL','HOU','0600','0705']]
-
+                   ['T3','DAL','HOU','0600','0705'],
+                   ['T4','HOU','AUS','0600','0650'],
+                   ['T5','HOU','DAL','0600','0705'],
+                   ['T6','HOU','DAL','0600','0645']]
 
 
 
